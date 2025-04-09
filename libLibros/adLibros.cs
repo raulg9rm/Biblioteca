@@ -65,7 +65,7 @@ namespace libLibros
                     }
 
                 }
-            }
+            }j
             catch (SqlException SqlEx)
             {
                 objError.uException = SqlEx;

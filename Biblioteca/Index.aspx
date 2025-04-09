@@ -25,7 +25,6 @@
                     <a href="GestionAlumnos.aspx">Ver Alumno</a>
                     <a href="GestionAlumnos.aspx">Ver Libros</a>
                     <a href="GestionAlumnos.aspx">Registrar Nuevo Prestamo</a>
-                    <asp:LinkButton runat="server" ID="lknVerAlumnos" Text="Ver Alumnos" OnClick="lknVerAlumnos_Click"></asp:LinkButton>
                 </div>
                 <div class="col-sm-2"></div>
             </div>
