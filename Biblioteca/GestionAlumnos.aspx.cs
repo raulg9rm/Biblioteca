@@ -75,19 +75,19 @@ namespace Biblioteca
             }
         }
 
-        protected void lknEliminar_Click(object sender, EventArgs e)
-        {
-            LinkButton btn = (LinkButton)sender;
-            DataGridItem row = (DataGridItem)btn.NamingContainer;
-            string matricula = gridAlumnos.DataKeys[row.ItemIndex].ToString();
-            using (var objVerAlumnos = new libAlumnos.rnAlumnos() { Matricula = int.Parse(matricula) })
-            {
-                DataTable dt = new DataTable();
-                dt = objVerAlumnos.EliminarDatos();
-                Response.Write(dt.Rows[0]["Mensaje"].ToString());
-                FillAlumnos();
-                txtMatricula.Enabled = true;
-            }
-        }
+        //protected void lknEliminar_Click(object sender, EventArgs e)
+        //{
+        //    LinkButton btn = (LinkButton)sender;
+        //    DataGridItem row = (DataGridItem)btn.NamingContainer;
+        //    string matricula = gridAlumnos.DataKeys[row.ItemIndex].ToString();
+        //    using (var objVerAlumnos = new libAlumnos.rnAlumnos() { Matricula = int.Parse(matricula) })
+        //    {
+        //        DataTable dt = new DataTable();
+        //        dt = objVerAlumnos.EliminarDatos();
+        //        Response.Write(dt.Rows[0]["Mensaje"].ToString());
+        //        FillAlumnos();
+        //        txtMatricula.Enabled = true;
+        //    }
+        //}
     }
 }
