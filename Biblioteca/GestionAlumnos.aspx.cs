@@ -30,6 +30,7 @@ namespace Biblioteca
 
         }
 
+
         protected void lknEditar_Click(object sender, EventArgs e)
         {
             LinkButton btn = (LinkButton)sender;
