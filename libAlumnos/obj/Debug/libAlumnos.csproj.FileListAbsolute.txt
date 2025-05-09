@@ -1,6 +1,0 @@
-C:\Users\rulaz\source\repos\Biblioteca\libAlumnos\bin\Debug\libAlumnos.dll
-C:\Users\rulaz\source\repos\Biblioteca\libAlumnos\bin\Debug\libAlumnos.pdb
-C:\Users\rulaz\source\repos\Biblioteca\libAlumnos\obj\Debug\libAlumnos.csproj.AssemblyReference.cache
-C:\Users\rulaz\source\repos\Biblioteca\libAlumnos\obj\Debug\libAlumnos.csproj.CoreCompileInputs.cache
-C:\Users\rulaz\source\repos\Biblioteca\libAlumnos\obj\Debug\libAlumnos.dll
-C:\Users\rulaz\source\repos\Biblioteca\libAlumnos\obj\Debug\libAlumnos.pdb
