@@ -22,9 +22,32 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
-                    <a href="GestionAlumnos.aspx">Ver Alumno</a>
-                    <a href="GestionAlumnos.aspx">Ver Libros</a>
-                    <a href="GestionAlumnos.aspx">Registrar Nuevo Prestamo</a>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <a href="GestionAlumnos.aspx">
+                                <img src="https://cdn-icons-png.flaticon.com/512/8093/8093497.png" width="50" height="50" />Alumnos</a>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <a href="GestionLibros.aspx.aspx">
+                                <img src="https://png.pngtree.com/png-clipart/20221219/original/pngtree-book-cartoon-illustration-vector-png-image_8780973.png" width="50" height="50" />Libros</a>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <a href="GestionAlumnos.aspx">
+                                <img src="https://media.istockphoto.com/id/1364964018/es/vector/intercambio-intercambio-o-cruce-de-libros-fiesta-de-lectura-evento-de-literatura-escolar-la.jpg?s=612x612&w=0&k=20&c=tggELjSAOB6khaReTN6VnGlKNsQkUfcBDTrEzf9YrKQ=" width="50" height="50" />Prestamos</a>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
                 </div>
                 <div class="col-sm-2"></div>
             </div>
