@@ -24,15 +24,6 @@ namespace Biblioteca
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// gridAlumnos control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DataGrid gridAlumnos;
-
-        /// <summary>
         /// txtMatricula control.
         /// </summary>
         /// <remarks>
@@ -76,5 +67,14 @@ namespace Biblioteca
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton lknEditar;
+
+        /// <summary>
+        /// gridAlumnos control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DataGrid gridAlumnos;
     }
 }

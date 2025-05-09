@@ -13,7 +13,7 @@
         <div>
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="Index.aspx" >Regresar</a>
+                    <a href="Index.aspx">Regresar</a>
                 </div>
                 <div class="col-sm-4">
                     <h1>Gestion de alumnos</h1>
@@ -21,8 +21,37 @@
             </div>
             <br />
             <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <label>Matricula: </label>
+                            <asp:TextBox runat="server" ID="txtMatricula"></asp:TextBox>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <label>Nombre: </label>
+                            <asp:TextBox runat="server" ID="txtNombre"></asp:TextBox>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <label>Edad: </label>
+                            <asp:TextBox runat="server" ID="txtEdad"></asp:TextBox>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <asp:LinkButton runat="server" ID="LinkButton1" CssClass="btn btn-success" OnClick="lknAltaAlumno_Click">Guardar</asp:LinkButton>
+                            <asp:LinkButton runat="server" ID="lknEditar" CssClass="btn btn-secondary" OnClick="lknEditar_Click1">Editar</asp:LinkButton>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-7">
                     <asp:DataGrid runat="server" ID="gridAlumnos" AutoGenerateColumns="false" DataKeyField="Matricula" Width="100%">
                         <Columns>
                             <asp:BoundColumn DataField="Matricula" HeaderText="Matricula"></asp:BoundColumn>
@@ -42,20 +71,7 @@
                     </asp:DataGrid>
 
                 </div>
-            </div>
-            <br />
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8">
-                    <label>Matricula: </label>
-                    <asp:TextBox runat="server" ID="txtMatricula"></asp:TextBox>
-                    <label>Nombre: </label>
-                    <asp:TextBox runat="server" ID="txtNombre"></asp:TextBox>
-                    <label>Edad: </label>
-                    <asp:TextBox runat="server" ID="txtEdad"></asp:TextBox>
-                    <asp:LinkButton runat="server" ID="LinkButton1" CssClass="btn btn-success" OnClick="lknAltaAlumno_Click">Guardar</asp:LinkButton>
-                    <asp:LinkButton runat="server" ID="lknEditar" CssClass="btn btn-secondary" OnClick="lknEditar_Click1">Editar</asp:LinkButton>
-                </div>
+                <div class="col-sm-1"></div>
             </div>
         </div>
     </form>
