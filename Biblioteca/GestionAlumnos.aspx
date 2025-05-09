@@ -53,8 +53,8 @@
                     <asp:TextBox runat="server" ID="txtNombre"></asp:TextBox>
                     <label>Edad: </label>
                     <asp:TextBox runat="server" ID="txtEdad"></asp:TextBox>
-                    <asp:LinkButton runat="server" ID="LinkButton1" OnClick="lknAltaAlumno_Click">Guardar</asp:LinkButton>
-                    <asp:LinkButton runat="server" ID="lknEditar" OnClick="lknEditar_Click1">Editar</asp:LinkButton>
+                    <asp:LinkButton runat="server" ID="LinkButton1" CssClass="btn btn-success" OnClick="lknAltaAlumno_Click">Guardar</asp:LinkButton>
+                    <asp:LinkButton runat="server" ID="lknEditar" CssClass="btn btn-secondary" OnClick="lknEditar_Click1">Editar</asp:LinkButton>
                 </div>
             </div>
         </div>
