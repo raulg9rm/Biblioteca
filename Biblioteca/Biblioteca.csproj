@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="GestionAlumnos.aspx" />
+    <Content Include="GestionLibros.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="GestionAlumnos.aspx.designer.cs">
       <DependentUpon>GestionAlumnos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionLibros.aspx.cs">
+      <DependentUpon>GestionLibros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionLibros.aspx.designer.cs">
+      <DependentUpon>GestionLibros.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

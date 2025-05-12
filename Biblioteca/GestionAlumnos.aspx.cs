@@ -23,13 +23,38 @@ namespace Biblioteca
             using (var objVerAlumnos = new libAlumnos.rnAlumnos())
             {
                 DataTable dt = new DataTable();
-                dt = objVerAlumnos.ListarDatos();
+                //dt = objVerAlumnos.ListarDatos();
+                dt = CrearTablaFicticia();
                 gridAlumnos.DataSource = dt;
                 gridAlumnos.DataBind();
             }
 
         }
 
+
+        public DataTable CrearTablaFicticia()
+        {
+            DataTable alumnos = new DataTable();
+
+            // Definir las columnas
+            alumnos.Columns.Add("Matricula", typeof(int));
+            alumnos.Columns.Add("NombreAlumno", typeof(string));
+            alumnos.Columns.Add("Edad", typeof(int));
+
+            // Agregar filas
+            alumnos.Rows.Add(2024001, "Araceli Adriana Garcia Lopez", 25);
+            alumnos.Rows.Add(2024002, "Raul Garcia Maturana", 26);
+            alumnos.Rows.Add(2024003, "Sofia Garcia Garcia", 4);
+            alumnos.Rows.Add(2024006, "Alumno ya editado", 1);
+            alumnos.Rows.Add(2024007, "Emily", 4);
+            alumnos.Rows.Add(2024008, "Alumno para eliminar", 88);
+            alumnos.Rows.Add(2024009, "ALUMNA 1", 25);
+            alumnos.Rows.Add(2024010, "ALUMNA 2", 26);
+            alumnos.Rows.Add(2024011, "ALUMNA 3", 26);
+            alumnos.Rows.Add(2024012, "otro alumno", 15);
+
+            return alumnos;
+        }
 
         protected void lknEditar_Click(object sender, EventArgs e)
         {
